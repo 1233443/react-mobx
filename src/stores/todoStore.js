@@ -10,6 +10,10 @@ observableTodoStore.todos[0].task = "grok MobX tutorial";
 */
 
 
+
+console.log(Object.keys({x:1,y:2}));
+
+
 class ObservableTodoStore{
 	@observable todos=[]; 
 	@observable pendingRequests = 0;

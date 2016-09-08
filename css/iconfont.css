@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1473325698_1448665.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1473325698_1448665.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1473325698_1448665.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1473325698_1448665.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1473325698_1448665.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+                                     
+                                   
+.icon{
+	font-family: "iconfont";
+}    
+.operator-icon::before{
+	content: "\e600";
+} 
+.home-icon::before{
+	content: "\e601";
+} 
+.statistics-icon::before{
+	content: "\e603";
+}    
+/*推送*/
+.propelling-icon::before{
+	content: "\e605";
+} 
+/*发奖*/
+.award-icon::before{
+	content: "\e604";
+}         

@@ -3,13 +3,13 @@ import { observable, action } from 'mobx';
 class UserStore {
 
   @observable me;
-
   constructor() {
     this.me = null;
   }
-
-  @action setMe = (me) => {
-    this.me = me;
+  
+  @action 
+  setMe = (me) => {
+    this.me = "aaa";
   }
 
 }
